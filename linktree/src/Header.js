@@ -6,9 +6,9 @@ import icon from "./images/_Avatar share button.svg";
 function Header() {
   return (
     <div className="header">
-      <a id="icon_tag" src="#">
+      {/* <a id="icon_tag" href="#">
         <img id="profile_icon" src={icon} />
-      </a>
+      </a> */}
       <div id="img_container">
         <img id="profile__img" src={profile} alt="Profile image" />
 

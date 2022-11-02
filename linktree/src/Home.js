@@ -9,7 +9,7 @@ function Home() {
       <div id="link_container">
         <button className="link">
           {" "}
-          <a src="" id="">
+          <a href="" id="">
             Twitter Link
           </a>{" "}
         </button>
@@ -19,14 +19,14 @@ function Home() {
         </button>
         <button className="link">
           {" "}
-          <a src=" http://books.zuri.team" id="">
+          <a href=" http://books.zuri.team" id="">
             Zuri Books
           </a>{" "}
         </button>
         <button className="link">
           {" "}
           <a
-            src="https://books.zuri.team/python-for-beginners?ref_id=<ClintonAkpama>"
+            href="https://books.zuri.team/python-for-beginners?ref_id=<ClintonAkpama>"
             id=""
           >
             Python Books
