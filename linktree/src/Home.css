@@ -45,7 +45,7 @@ a{
     color: #101828;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:600px) {
 
     #link_container {
             display: flex;

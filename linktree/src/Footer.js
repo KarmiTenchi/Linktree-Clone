@@ -7,9 +7,9 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer-wrapper">
-        <img src={Zuri} />
+        <img className="zuri" src={Zuri} />
         <p>HNG Internship 9 Frontend Task</p>
-        <img src={I4G} />
+        <img className="i4g" src={I4G} />
       </div>
     </div>
   );

@@ -22,3 +22,36 @@ p {
     font-size: 16px;
     line-height: 24px;
 }
+
+@media (max-width:600px) {
+    .footer-wrapper {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            padding-top: 69.24px;
+            padding-bottom: 32px;
+            padding-left: 16px;
+            gap: 16px;
+        }
+    
+    .zuri{
+        height: 18.552810668945312px;
+        width: 138.7725830078125px;
+        left: 1.018310546875px;
+        top: 5.237060546875px;
+
+    }
+    p {
+        color: #667085;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .i4g{
+        height: 24px;
+        width: 99.09677124023438px;
+        left: 0px;
+        top: 108px;
+    }
+}
