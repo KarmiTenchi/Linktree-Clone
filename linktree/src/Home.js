@@ -48,7 +48,7 @@ function Home() {
         </a>
       </div>
       <div className="icons">
-        <img id="slack" src={Slack} />
+        <img id="slacklogo" src={Slack} />
         <img id="git" src={Git} />
       </div>
     </div>
