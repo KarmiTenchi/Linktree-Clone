@@ -8,102 +8,101 @@
     font-style: normal;
 }
 
-body {
-    background: #fff;
-    text-align: center;
-    margin: 1.5em;
+form {
+    text-align: left;
+    width: 50%;
+    margin: 92px auto;
 }
 
-input {
-    border: 1px solid #D0D5DD;
-    border-radius: 5px;
+#form-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #101828;
+}
+
+#form-subtitle {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 48px;
+    color: #475467;
+}
+
+#name-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    font-size: 14px;
+    color: #344054;
+
+}
+
+#first_name,
+#last_name,
+#email,
+#message,
+#btn__submit {
     padding: 10px 14px;
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 24px;
+    color: #667085;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+#first_name,
+#last_name {
+    min-width: 325px;
+}
+
+#email,
+#message {
+    width: 100%;
 }
 
 textarea {
-    font-size: 1rem;
-    resize: none;
-    border: 1px solid #D0D5DD;
-    border-radius: 5px;
-    padding: 10px 14px;
+    font-family: inter;
+    height: 132px;
 }
 
-div+div {
-    margin-top: 1em;
-}
-
-.container {
-    margin: 2em auto;
-    text-align: start;
-}
-
-.col {
-    display: flex;
-    flex-direction: column;
-}
-
-.col label {
-    margin-bottom: .4em;
-}
-
-.title {
-    font-size: 2rem;
-    margin-bottom: .2em;
-}
-
-.firstName {
-    margin-top: 2em;
-}
-
-.checkbox {
-    margin-top: 2em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.checkbox input {
-    margin-top: .2em;
-    margin-right: .5em;
+#data-confirmation {
+    margin-right: 12px;
 }
 
 #btn__submit {
-    margin-top: 1.5em;
-    margin-bottom: 3em;
-    border: none;
-    border-radius: 8px;
-    background: #1570EF;
-    color: #fff;
-    text-align: center;
     width: 100%;
-    padding: .8em;
-    cursor: pointer;
+    background: #1570EF;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 32px;
 }
 
-
-@media screen and (min-width: 500px) {
-    .container {
-        max-width: 600px;
+@media (max-width: 768px) {
+    form {
+        text-align: left;
+        width: 90%;
+        margin: 64px 16px;
     }
 
-    .name_field {
-        display: flex;
-        flex-direction: row;
-        gap: 1em;
-        margin-top: 2em;
+    #form-subtitle {
+        font-size: 18px;
+        margin-top: 16px;
+        margin-bottom: 40px;
     }
 
-    .firstName,
-    .lastName {
-        margin: 0;
+    #name-inputs {
+        display: block;
     }
 
-    .firstName {
-        width: 50%;
+    #first_name,
+    #last_name {
+        min-width: 100%;
     }
 
-    .lastName {
-        width: 50%;
-    }
 }
