@@ -56,7 +56,7 @@ function Contact() {
             value="confirmed"
           />
           <label for="data-confirmation">
-            You agree to providing your data to Bada who may contact you.
+            You agree to providing your data to Annette who may contact you.
           </label>
           <br />
         </div>
