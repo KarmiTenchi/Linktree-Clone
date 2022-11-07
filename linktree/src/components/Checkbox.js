@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/checkbox.module.css";
+import styles from "../styles/checkbox.module.css";
 
 const Checkbox = ({ text, id, gridColumn, value, handleCheckbox }) => {
   return (

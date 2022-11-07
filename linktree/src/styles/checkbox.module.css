@@ -15,7 +15,7 @@
 
 .wrapper input:checked {
     background: #f9fafb;
-    background-image: url("/public/check.svg");
+    background-image: url("check.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
