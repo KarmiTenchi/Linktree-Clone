@@ -1,0 +1,47 @@
+.section {
+    padding-top: 156px;
+    padding-bottom: 236px;
+}
+
+.wrapper {
+    padding-left: 248px;
+    padding-right: 248px;
+}
+
+.wrapper h2 {
+    margin-bottom: 20px;
+}
+
+.wrapper form {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding-top: 64px;
+        padding-bottom: 98px;
+    }
+
+    .wrapper {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .wrapper h2 {
+        margin-bottom: 16px;
+    }
+
+    .wrapper form {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .wrapper {
+        padding: 0px;
+    }
+}
