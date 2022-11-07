@@ -30,6 +30,7 @@ form {
 #name-inputs {
     display: flex;
     justify-content: space-between;
+    
 }
 
 label {
@@ -38,8 +39,7 @@ label {
 
 }
 
-#first_name,
-#last_name,
+
 #email,
 #message,
 #btn__submit {
@@ -53,10 +53,36 @@ label {
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
 }
 
+#first_name{
+    padding: 10px 14px;
+        font-size: 16px;
+        margin-top: 6px;
+        color: #667085;
+        border: 1px solid #D0D5DD;
+        border-radius: 8px;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+#last_name{
+    padding: 10px 14px;
+        font-size: 16px;
+        margin-top: 6px;
+        color: #667085;
+        border: 1px solid #D0D5DD;
+        border-radius: 8px;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
 #first_name,
 #last_name {
     min-width: 325px;
+    display: flex;
+    gap: 6px;
 }
+.validation {
+    margin:6px;
+    color: #F83F23;
+}
+
 
 #email,
 #message {
