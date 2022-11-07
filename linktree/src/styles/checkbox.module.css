@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    column-gap: 12px;
+}
+
+.wrapper input {
+    border-radius: 6px;
+    min-width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border: 1px solid #d0d5dd;
+    appearance: none;
+    cursor: pointer;
+}
+
+.wrapper input:checked {
+    background: #f9fafb;
+    background-image: url("/public/check.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid #1570ef;
+    border-radius: 6px;
+}
+
+.wrapper input:focus {
+    border: 1px solid #84caff;
+    box-shadow: 0px 0px 0px 4px #d1e9ff;
+    outline: none;
+    border-radius: 6px;
+}
+
+.wrapper input:disabled {
+    background: #f2f4f7;
+    border: 1px solid #d0d5dd;
+}
+
+.wrapper label {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
+}
